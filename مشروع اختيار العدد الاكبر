@@ -1,0 +1,18 @@
+X=int(input("inter the number (x):"))
+Y=int(input("inter the number (Y):"))
+Z=int(input("inter the number (Z):"))
+if X>Y and X>Z:
+    print(X)
+
+elif Y>X and Y>Z:
+    print(Y)
+
+elif Z>X and Z>Y:
+    print(Z)
+
+else:
+    print("error")
+
+    
+
+

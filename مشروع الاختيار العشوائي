@@ -1,0 +1,8 @@
+import random
+
+# Subjects list
+subjects = ["Arabic", "Religious education", "National education","Math", "English"]
+
+# Random selection
+random_choice = random.choice(subjects)
+print(random_choice)

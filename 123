@@ -1,0 +1,5 @@
+str_Time=int(input("what is the time ? \n"))
+Time=str_Time *2 
+str_Distance= float(32*Time)
+Distance=str_Distance/2
+print(Distance)

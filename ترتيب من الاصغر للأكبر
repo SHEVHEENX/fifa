@@ -1,0 +1,27 @@
+X=int(input("inter the number (x):"))
+Y=int(input("inter the number (Y):"))
+Z=int(input("inter the number (Z):"))
+print("The largest number is")
+if X>Y and X>Z:
+    print(X,end=" ")
+    if Y>Z:
+        print(Y,Z)
+    else:
+        print(Z,Y)
+
+elif Y>X and Y>Z:
+    print(Y,end=" ")
+    if X>Z:
+        print(X,Z)
+    else:
+        print(Z,X)
+
+elif Z>X and Z>Y:
+    print(Z,end=" ")
+    if X>Y:
+        print(X,Y)
+    else:
+        print(Y,X)
+
+else :
+    print("eror")
